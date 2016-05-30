@@ -9,7 +9,7 @@ tags:
 
 # About me
 
-I am a French front-end developer based in Berlin.
+I am a French developer based in Berlin. I currently work at [datawallet.io](https://datawallet.io) and I'm pretty happy. 
 
 You can ask me anything on [Twitter](https://twitter.com/nbrugneaux).
 
