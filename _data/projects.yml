@@ -1,4 +1,84 @@
-- name: Placeholder
-  description: "description"
-  link: https://github.com/...
+- name: nicolasbrugneaux.github.io
+  description: "This very website."
+  link: https://github.com/nicolasbrugneaux/nicolasbrugneaux.github.io
+  category: Ruby
+
+- name: isaac.js
+  description: "Isaac in canvas and JavaScript."
+  link: https://github.com/nicolasbrugneaux/isaac.js
+  category: JavaScript
+
+- name: s3-bucket-svg-optimizer
+  description: "Optimize all your svg in-place in your s3 bucket."
+  link: https://github.com/nicolasbrugneaux/s3-bucket-svg-optimizer
+  category: JavaScript
+
+- name: redis-haskell
+  description: "Redis-like database in haskell. Implements Redis protocol."
+  link: https://github.com/nicolasbrugneaux/redis-haskell
+  category: Haskell
+
+- name: hack-berry
+  description: "Berry name generator"
+  link: https://github.com/nicolasbrugneaux/hack-berry
+  category: Haskell
+
+- name: unscrambler
+  description: "Small program that unscrambles words!"
+  link: https://github.com/nicolasbrugneaux/unscrambler
+  category: Haskell
+
+- name: lazyscore
+  description: "Lazy evaluated underscore/lodash-like lib."
+  link: https://github.com/nicolasbrugneaux/lazyscore
+  category: JavaScript
+
+- name: ook-js
+  description: "Ook Ook!"
+  link: https://github.com/nicolasbrugneaux/ook-js
+  category: JavaScript
+
+- name: functional-javascript
+  description: "Inspired by Haskell Prelude module, some helper functions."
+  link: https://github.com/nicolasbrugneaux/functional-javascript
+  category: JavaScript
+
+- name: switch-exp
+  description: "Switch as expressions for JavaScript."
+  link: https://github.com/nicolasbrugneaux/switch-exp
+  category: JavaScript
+
+- name: web-player-react
+  description: "Offline music player with React."
+  link: https://github.com/nicolasbrugneaux/web-player-react
+  category: JavaScript
+
+- name: elo-js
+  description: "Elo algorithm implementation in JS."
+  link: https://github.com/nicolasbrugneaux/elo-js
+  category: JavaScript
+
+- name: hoodie-boilerplate-react
+  description: "Boilerplate for Hoodie app with React."
+  link: https://github.com/nicolasbrugneaux/hoodie-boilerplate-react
+  category: JavaScript
+
+- name: PunkRockAcademy_iOS
+  description: "Get your punk fix. Discover other people's influences. – On your iOS Device thanks to React Native"
+  link: https://github.com/nicolasbrugneaux/PunkRockAcademy_iOS
+  category: JavaScript
+
+- name: react-memory-stats
+  description: "React Component that shows your app memory activity."
+  link: https://github.com/nicolasbrugneaux/react-memory-stats
+  category: JavaScript
+
+- name: busyfy
+  description: "Stay focused. HAndy chrome extension"
+  link: https://github.com/nicolasbrugneaux/busyfy
+  category: JavaScript
+
+- name: codeshare
+  description: "nodejs, socket.io, Inspired by http://codeshare.io"
+  link: https://github.com/nicolasbrugneaux/codeshare
   category: JavaScript
