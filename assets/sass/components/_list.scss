@@ -1,0 +1,49 @@
+ul {
+  list-style: none;
+}
+
+ul, ol {
+  padding-left: 0;
+  list-style-position: inside;
+  margin-bottom: line(1);
+}
+
+li:not([class]) {
+  padding-left: 1.3em;
+  padding-left: 2ch;
+  text-indent: -1.3em;
+  text-indent: -2ch;
+  color: $red;
+}
+
+ul > li:not([class])::before {
+  content: '* ';
+}
+
+.list__item {
+  margin-bottom: line(1);
+}
+
+.list__item::before {
+  content: '---\A ';
+  display: block;
+  white-space: pre;
+  margin-bottom: line(1);
+}
+
+/**
+ * Prevent initial `---` when coming right after a heading
+ */
+h2 + .list > .list__item:first-child::before {
+  content: none;
+}
+
+.list__primary-content,
+.list__secondary-content {
+  display: block;
+  margin: 0;
+}
+
+.list__secondary-content {
+  @include em-styles;
+}

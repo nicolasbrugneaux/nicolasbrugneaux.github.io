@@ -1,0 +1,39 @@
+/**
+ * Site advertisement
+ * Floated on medium screens
+ */
+.site-ad {
+  @include respond-to('medium') {
+    float: right;
+    margin-right: -1em;
+    margin-left: 1em;
+  }
+}
+
+/**
+ * Change default styles of CarbonAds
+ * `!important` used to override inline styles
+ */
+.carbonad {
+  background: transparent !important;
+  height: auto !important;
+  border: 0 !important;
+  color: $almost-white !important;
+  max-width: 100% !important;
+}
+
+.carbonad a {
+  color: inherit !important;
+}
+
+/**
+ * Prevent hidden image from CarbonAds to mess with the layout
+ */
+#azcarbon > img {
+  display: inline !important;
+}
+
+.carbonad a::before,
+.carbonad a::after {
+  content: none !important;
+}

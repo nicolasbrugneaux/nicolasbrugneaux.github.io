@@ -1,0 +1,25 @@
+/**
+ * Blockquotes
+ */
+blockquote {
+  margin: 0 0 line(1);
+  color: $orange;
+}
+
+blockquote > ::before {
+  content: '> ';
+}
+
+/**
+ * Prevent an odd gap when the first child of blockquote as a top margin
+ */
+blockquote > :first-child {
+  margin-top: 0;
+}
+
+/**
+ * Prevent an odd gap when the last child of blockquote as a bottom margin
+ */
+blockquote > :last-child {
+  margin-bottom: 0;
+}

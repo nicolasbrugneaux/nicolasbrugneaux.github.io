@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Nicolas Brugneaux -- Developer -- @nbrugneaux
+
+# TECHNOLOGY COLOPHON
+
+    HTML, CSS, JavaScript
+    Sass, Normalize.css
+    Jekyll, Simple-Jekyll-Search
+    GitHub Pages, Jekyll

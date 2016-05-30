@@ -1,0 +1,14 @@
+/**
+ * Slightly move Disqus away from the content
+ */
+#disqus_thread {
+  margin-top: line(2);
+}
+
+/**
+ * CodePen embedded iframes
+ */
+.cp_embed_iframe {
+  display: block;
+  margin-bottom: line(1);
+}

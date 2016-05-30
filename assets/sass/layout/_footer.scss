@@ -1,0 +1,21 @@
+.footer {
+  background-color: $black;
+  color: $medium-grey;
+  padding: 0 0.5em;
+
+  @include respond-to('medium') {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+}
+
+.footer p {
+  margin: 0;
+  
+  @include respond-to('medium') {
+    font-size: 70%;
+  }
+}

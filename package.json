@@ -1,0 +1,13 @@
+{
+  "title": "Nicolas Brugneaux - Static Website",
+  "homepage": "https://nicolasbrugneaux.me",
+  "repository": "git@github.com:nicolasbrugneaux/nicolasbrugneaux.github.io.git",
+  "scripts": {
+    "start": "npm run min",
+    "min": "cat assets/js/main.js | uglifyjs > assets/js/main.min.js",
+    "clean": "rm -f assets/js/main.min.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}

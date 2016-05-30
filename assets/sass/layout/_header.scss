@@ -1,0 +1,74 @@
+.header {
+  background-color: $very-dark-grey;
+  color: $medium-grey;
+  padding: 1em;
+
+  @include respond-to('medium') {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: $sidebar-width;
+  }
+}
+
+
+@include respond-to('medium') {
+  .header::before {
+    content: 'folders';
+    text-transform: uppercase;
+    display: block;
+    font-size: 70%;
+  }
+}
+
+.header__title {
+  margin: 0;
+  display: block;
+  color: inherit;
+}
+
+.nav__list {
+  margin: 0;
+}
+
+.nav__item {
+  text-transform: lowercase;
+  line-height: 1.5;
+  padding-left: 0.4em;
+  padding-left: 1ch;
+}
+
+.nav__item::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid transparent;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-right-color: currentcolor;
+  border-top-color: currentcolor;
+}
+
+.nav__item.is-active::before {
+  border-top-color: transparent;
+  border-bottom-color: currentcolor;
+  -webkit-transform: rotate(45deg) translate(0px, -4px);
+  -ms-transform: rotate(45deg) translate(0px, -4px);
+  transform: rotate(45deg) translate(0px, -4px);
+}
+
+.header__link,
+.nav__link {
+  color: inherit;
+  font-size: 80%;
+}
+
+.header__link:active,
+.header__link:hover,
+.nav__link:active,
+.nav__link:hover {
+  color: $almost-white;
+}

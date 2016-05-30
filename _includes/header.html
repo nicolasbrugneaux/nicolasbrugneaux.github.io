@@ -1,0 +1,24 @@
+<header class="header" role="banner">
+  <span class="header__title{% if page.url == '/' %}  is-active{% endif %}">
+    <a class="header__link" href="/">nicolasbrugneaux.me</a>
+  </span>
+  <nav role="navigation" class="nav">
+    <ul class="nav__list">
+      {% for item in site.nav %}
+      <li class="nav__item{% if page.url == item.url %}  is-active{% endif %}">
+        <a class="nav__link" href="{{ item.url }}">{{ item.label }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a class="nav__link" href="https://github.com/nicolasbrugneaux" target="blank">GitHub</a>
+      <li class="nav__item">
+        <a class="nav__link" href="http://twitter.com/nbrugneaux" target="blank">Twitter</a>
+      </li>
+    </ul>
+  </div>
+</header>

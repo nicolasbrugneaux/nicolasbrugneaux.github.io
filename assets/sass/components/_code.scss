@@ -1,0 +1,24 @@
+code {
+  font-family: $code-font-stack;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+:not(pre) > code {
+  color: $green;
+}
+
+:not(pre) > code::before,
+:not(pre) > code::after {
+  content: '`';
+}
+
+pre {
+  margin-bottom: line(1);
+}
+
+pre::before,
+pre::after {
+  content: '```';
+  display: block;
+}
