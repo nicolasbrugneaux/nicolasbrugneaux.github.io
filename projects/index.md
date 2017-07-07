@@ -8,8 +8,6 @@ tags:
   - github
 ---
 
-**Note**:*These days I have to focus pretty much entirely on private projects for the company I work for, so my open-source projects are frozen~ish for now.*
-
 # Open-source Projects
 
 When I can, I try to invest a lot of time in open-source projects. Here are a few of them I initiated myself:
