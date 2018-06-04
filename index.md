@@ -10,7 +10,7 @@ tags:
 
 # Hello, I’m Nicolas Brugneaux.
 
-A French developer working at [datawallet.io](https://datawallet.io) in Berlin. Feel free to [read more about me](/about/).
+A French developer working at [Datawallet](https://datawallet.com) in Berlin. Feel free to [read more about me](/about/).
 
 <!-- ---
 
