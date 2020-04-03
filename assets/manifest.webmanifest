@@ -1,0 +1,21 @@
+{
+    "short_name": "Nicolas Brugneaux",
+    "name": "Nicolas Brugneaux: Personal Website",
+    "description": "Quickest way to get to know Nicolas Brugneaux.",
+    "icons": [{
+            "src": "/assets/images/favicon-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/assets/images/favicon-150.png",
+            "type": "image/png",
+            "sizes": "150x150"
+        }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#232830",
+    "display": "minimal-ui",
+    "scope": "/",
+    "theme_color": "#2b303b"
+}
