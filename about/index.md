@@ -9,7 +9,7 @@ tags:
 
 # About me
 
-I am a French developer based in Berlin. I'm currently lead engineer at [Datawallet](https://datawallet.com) and lovin' it. Also, we're hiring!
+I am a French developer based in Berlin. I'm currently lead engineer at [Datawallet](https://datawallet.com).
 
 You can ask me anything on [Twitter](https://twitter.com/nbrugneaux).
 If you wish for a more private way of contacting me, you can reach <br>

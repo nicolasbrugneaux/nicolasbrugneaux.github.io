@@ -4,10 +4,10 @@
   "repository": "git@github.com:nicolasbrugneaux/nicolasbrugneaux.github.io.git",
   "scripts": {
     "start": "npm run min",
-    "min": "cat assets/js/main.js | uglifyjs > assets/js/main.min.js",
+    "min": "uglifyjs --compress --mangle --output assets/js/main.min.js --toplevel -- assets/js/main.js",
     "clean": "rm -f assets/js/main.min.js"
   },
   "devDependencies": {
-    "uglify-js": "^2.6.2"
+    "uglify-js": "^3.8.1"
   }
 }
