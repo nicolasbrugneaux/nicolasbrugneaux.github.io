@@ -1,4 +1,10 @@
 <footer class="footer" role="contentinfo">
-  <p><span class="js--full-year"></span> Nicolas Brugneaux{% if content %}, {{ content | number_of_words }} words,
-    {% include reading-time.html %}{% endif %}</p>
+  <p>
+    <span class="js--full-year"></span>
+    &nbsp;
+    Nicolas Brugneaux
+    {% if content %}
+    , {{ content | number_of_words }} words,
+    {% include reading-time.html %}
+    {% endif %}</p>
 </footer>

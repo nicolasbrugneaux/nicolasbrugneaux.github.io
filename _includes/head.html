@@ -19,9 +19,9 @@ http://ogp.me/ns/article#">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   {% if page.tags %}
-  <meta name="keywords" content="{{ page.tags|join: ',' }}" />
+  <meta name="keywords" content="{{ page.tags | join: ',' }}" />
   {% endif %}
-  <meta name="author" content="Nicolas Brugneaux">
+  <meta name="author" content="{{ page.author }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Stylesheets -->
@@ -57,7 +57,7 @@ http://ogp.me/ns/article#">
 
 
   <link rel="manifest" href="/assets/manifest.webmanifest">
-  
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41944288-1"></script>
   <script>

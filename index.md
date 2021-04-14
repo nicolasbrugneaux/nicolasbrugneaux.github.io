@@ -10,4 +10,5 @@ tags:
 
 # Hello, I’m Nicolas Brugneaux.
 
-A French developer working at [Datawallet](https://datawallet.com) in Berlin. Feel free to [read more about me](/about/).
+A French engineer working at [Passbase](https://passbase.com) in Berlin.
+Feel free to [read more about me](/about/).

@@ -12,9 +12,9 @@ if (footerSpan) {
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
     .register("/service-worker.js", {
-      scope: "/"
+      scope: "/",
     })
-    .catch(function(err) {
+    .catch(function (err) {
       console.warn("Service workers are not supported.");
     });
 }
