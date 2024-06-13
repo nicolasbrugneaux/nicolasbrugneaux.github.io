@@ -10,5 +10,5 @@ tags:
 
 # Hello, I’m Nicolas Brugneaux.
 
-A French engineer working at [Passbase](https://passbase.com) in Berlin.
+A French engineer working at [Clabs](https://clabs.co) in Strasbourg.
 Feel free to [read more about me](/about/).

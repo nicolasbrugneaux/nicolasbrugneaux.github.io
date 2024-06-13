@@ -1,8 +1,8 @@
 # Site settings
-title: Nicolas Brugneaux, developer in Berlin
-email: nicolas.brugneaux@gmail.com
+title: Nicolas Brugneaux, developer in Strasbourg
+email: hello@nicolasbrugneaux.me
 description: > # this means to ignore newlines until "baseurl:"
-  My name is Nicolas Brugneaux, I am a French developer based in Berlin.
+  My name is Nicolas Brugneaux, I am a French developer based in Strasbourg.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://nicolasbrugneaux.me" # the base hostname & protocol for your site
 twitter_username: nbrugneaux

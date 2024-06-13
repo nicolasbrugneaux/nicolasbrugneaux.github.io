@@ -16,6 +16,14 @@ While I'm not at liberty to share the most of the projects I've done or work on 
 <ul class="list">
 <li class="list__item">
   <p class="list__primary-content">
+    <a href="https://github.com/celo-org/" target="_blank">Clabs developer tooling</a>
+  </p>
+  <span class="list__secondary-content">
+    From typescript SDKs, web UIs, CLIs, ledger integration, to backend and devops. You could call me a jack of all trades. At Clabs I got the opportunity to work on many different tech stacks and projects. Hit me up to know more.
+  </span>
+</li>
+<li class="list__item">
+  <p class="list__primary-content">
     <a href="https://docs.passbase.com/server/api#install-a-server-side-library" target="_blank">Passbase server-side SDKs</a>
   </p>
   <span class="list__secondary-content">

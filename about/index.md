@@ -9,7 +9,7 @@ tags:
 
 # About me
 
-I am a French developer based in Berlin. I'm currently a lead software engineer at [Passbase](https://passbase.com).
+I am a French developer based in Strasbourg. I'm currently a partner, engineering at [Clabs](https://clabs.co/).
 
 You can ask me anything on [Twitter](https://twitter.com/nbrugneaux).
 If you wish for a more private way of contacting me, you can reach <br>
